@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.PRS"
+          android:versionCode="1"
+          android:versionName="1.0"
+          android:noHistory="true">
+    <uses-sdk android:minSdkVersion="9"/>
+
+    <permission
+            android:name="com.example.PRS.permission.MAPS_RECEIVE"
+            android:protectionLevel="signature"/>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+    <!--Required permissions-->
+
+    <uses-permission android:name="com.example.PRS.permission.MAPS_RECEIVE"/>
+
+    <!--Used by the API to download map tiles from Google Maps servers: -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!--Allows the API to access Google web-based services: -->
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.google.android.gtalkservice.permission.GTALK_SERVICE"/>
+
+    <!--Allows the API to cache map tile data in the device's external storage area: -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <!--Optional permissions-->
+
+    <!--Allows the API to use WiFi or mobile cell data (or both) to determine the device's location: -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <!--Allows the API to use the Global Positioning System (GPS) to determine the device's location to within a very small area :-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-feature
+            android:glEsVersion="0x00020000"
+            android:required="true"/>
+
+    <application android:label="@string/app_name"
+                 android:theme="@android:style/Theme.Holo.NoActionBar"
+            android:largeHeap="true"
+            android:killAfterRestore="true">
+
+       <!-- <activity android:name=".login"
+                  android:label="@string/app_name">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>  -->
+        <activity android:name=".splash"
+                  android:label="@string/app_name"
+                  android:noHistory="false">
+            <uses-library android:name="com.google.android.maps" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuPage"
+                  android:noHistory="false"/>
+        <activity android:name=".register"
+                  android:noHistory="true"/>
+
+        <activity android:name=".FoodDescActivity"
+                  android:noHistory="true"/>
+        <activity android:name=".Menu_list"
+                  android:noHistory="true"/>
+        <activity android:name=".ShoppingCartActivity"
+                  android:noHistory="true"/>
+        <activity android:name =".Table"
+                  android:noHistory="true"/>
+        <activity android:name =".Event"
+                  android:noHistory="true"/>
+        <activity android:name =".Delivery"
+                  android:noHistory="true"/>
+        <activity android:name =".FoodDataAvtivity"
+                  android:noHistory="true"/>
+        <activity android:name=".Event"
+                  android:noHistory="true"/>
+        <activity android:name=".Table"
+                  android:noHistory="true"/>
+        <activity android:name=".Delivery"
+                  android:noHistory="true"/>
+        <activity android:name=".login"
+                  android:noHistory="true"/>
+        <activity android:name=".Newsletter"
+                  android:noHistory="true"/>
+        <activity android:name=".MyMapActivity"
+                  android:noHistory="true">
+        <uses-library android:name="com.google.android.maps" />
+     </activity>
+
+        <meta-data
+                android:name="com.google.android.maps.v2.API_KEY"
+                android:value="AIzaSyDb-3O0wgfu5MaKh0rfJ_6cbpFe7ofvpeU" />
+
+    </application>
+
+
+</manifest> 

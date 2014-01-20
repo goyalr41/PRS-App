@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+    <startersfood>
+        <id>stat1</id>
+        <city>Chilly Potato </city>
+        <tempc>Rs.100</tempc>
+        <tempf>Rs.100</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>chillypotato</icon>
+    </startersfood>
+    <startersfood>
+        <id>stat2</id>
+        <city>Crispy Veg</city>
+        <tempc>Rs. 90</tempc>
+        <tempf>Rs. 90</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>crispyveg</icon>
+    </startersfood>
+    <startersfood>
+        <id>stat3</id>
+        <city>French Fries</city>
+        <tempc>Rs. 120</tempc>
+        <tempf>Rs. 120</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>frenchfries</icon>
+    </startersfood>
+    <startersfood>
+        <id>stat4</id>
+        <city>Spring Roll</city>
+        <tempc>Rs. 70</tempc>
+        <tempf>Rs. 70</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>springroll</icon>
+    </startersfood>
+    <startersfood>
+        <id>stat5</id>
+        <city>Stuffed Tomatoes</city>
+        <tempc>Rs. 630</tempc>
+        <tempf>Rs. 630</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>stuffed</icon>
+    </startersfood>
+   
+
+</Weather>

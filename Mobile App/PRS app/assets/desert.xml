@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+    <desert>
+        <id>des1</id>
+        <city>Sizzle Dazzle Brownie </city>
+        <tempc>Rs.111</tempc>
+        <tempf>Rs.111</tempf>
+        <condition>Sizzling hot gooey choco brownie served with vanilla ice cream and choco sauce.</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>brownie</icon>
+    </desert>
+    <desert>
+        <id>des2</id>
+        <city>Vanilla Icecream</city>
+        <tempc>Rs. 70</tempc>
+        <tempf>Rs. 70</tempf>
+        <condition>Double scoops. Double delight.</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>icecream</icon>
+    </desert>
+    <desert>
+        <id>des3</id>
+        <city>Choco Hola</city>
+        <tempc>Rs. 55</tempc>
+        <tempf>Rs. 55</tempf>
+        <condition>Rich chocolate and almond flakes.</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>tuffle</icon>
+    </desert>
+    <desert>
+        <id>des4</id>
+        <city>Nutty Fudge Brownie</city>
+        <tempc>Rs. 88</tempc>
+        <tempf>Rs. 88</tempf>
+        <condition>Soft and gooey American fudge cake with crunchy walnuts.</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>fudge</icon>
+    </desert>
+    <desert>
+        <id>des5</id>
+        <city>Choclate Mousse</city>
+        <tempc>Rs. 120</tempc>
+        <tempf>Rs. 120</tempf>
+        <condition>Mousse is the classical French dessert par excellence.</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>mousse</icon>
+    </desert>
+   
+
+</Weather>

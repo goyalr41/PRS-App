@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+        >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@id/LayoutRegister">
+
+    <view
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            class="com.example.PRS.ActionBar"
+            android:id="@id/actionbar"
+            android:layout_alignLeft="@id/registermobileno"
+            android:layout_alignParentTop="true"
+            style="@style/ActionBar"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp" android:layout_marginTop="44dp" android:background="@drawable/login">
+    </LinearLayout>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@id/registermobileno"
+            android:layout_gravity="center|bottom"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="300dp"
+            android:phoneNumber="true"
+            android:hint="Mobile Number"
+            android:focusableInTouchMode="true"
+            android:focusable="true"/>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@id/resgisterpwd"
+            android:layout_gravity="center|bottom"
+            android:password="true"
+            android:hint="Password"
+            android:typeface="normal"
+            android:layout_alignLeft="@id/registermobileno"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="350dp"
+            android:layout_alignRight="@id/registermobileno"/>
+
+    <Button
+            android:layout_width="172dp"
+            android:layout_height="40dp"
+            android:text="@string/titleRegister"
+            android:id="@id/registerbutton"
+            android:focusableInTouchMode="false"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="450dp"
+            android:layout_alignRight="@id/registermobileno"
+            android:layout_alignLeft="@id/registermobileno"
+            android:background="#2ba0ff"/>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@id/Name"
+            android:layout_gravity="center|bottom"
+            android:phoneNumber="false"
+            android:hint="Name"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:layout_alignLeft="@id/registermobileno"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="400dp"
+            android:shadowColor="#fcfff2"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Already Registered? Login!"
+            android:id="@id/aldreg"
+            android:singleLine="true"
+            android:textColor="#5fe6ff"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="62dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="500dp"/>
+
+</RelativeLayout>
+        </ScrollView>

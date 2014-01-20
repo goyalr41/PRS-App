@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <LinearLayout
+            android:id="@id/thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dip"
+            android:padding="3dip" >
+
+
+        <ImageView
+                android:id="@+id/list_image"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_gravity="top"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/lambcurry" />
+
+    </LinearLayout>
+
+    <!-- Rightend Arrow -->
+    <ImageView
+            android:id="@id/addimageView1"
+            android:contentDescription="@string/app_name"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/plus"
+            android:layout_toRightOf="@+id/tvCondition" android:layout_alignParentTop="false"
+            android:layout_marginTop="39dp" android:layout_marginRight="0.1dp" android:layout_alignParentRight="true"/>
+
+    <!-- City-->
+    <TextView
+            android:id="@+id/tvCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom ="9dip"
+            android:text="@string/strfooditem"
+            android:textColor="#040404"
+            android:textSize="20dip"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="72dp"
+            android:layout_alignTop="@id/thumbnail"/>
+
+    <!-- Weather Information-->
+
+    <TextView
+            android:id="@+id/tvCondition"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="@string/strfoodDesc"
+            android:textColor="#262334"
+            android:textSize="12dip"
+            android:layout_toRightOf="@id/thumbnail"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="50dp"/>
+
+
+    <TextView
+            android:id="@id/tvTemp"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:text="@string/strfoodcost"
+            android:textSize="20dip"
+            android:autoText="false"
+            android:layout_alignWithParentIfMissing="false"
+            android:gravity="right"
+            android:textColor="#ff0c10"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/thumbnail"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="175dp"/>
+
+</RelativeLayout>

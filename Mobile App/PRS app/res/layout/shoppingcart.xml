@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_height="fill_parent"
+              android:layout_width="fill_parent" android:background="#000000">
+
+    <view android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          class="com.example.PRS.ActionBar" android:id="@+id/actionbar" android:layout_gravity="center"
+          style="@style/ActionBar"/>
+    <ListView android:layout_height="wrap_content"
+              android:layout_weight="1" android:id="@+id/ListViewCatalog"
+              android:layout_width="fill_parent" android:background="#000000"
+              android:cacheColorHint="#ffffff" android:clickable="true"
+              android:choiceMode="multipleChoice">
+
+    </ListView>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" android:orientation="horizontal"
+                  android:layout_margin="5dip"
+                  android:id="@+id/LinearLayoutCheckout" android:layout_gravity="right">
+        <Button android:id="@id/checkout" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="Proceed to Checkout" android:enabled="true"
+                android:clickable="true"></Button>
+    </LinearLayout>
+
+
+</LinearLayout>
+

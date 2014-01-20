@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+    <breadfood>
+        <id>bread1</id>
+        <city>Tandoori Roti </city>
+        <tempc>Rs. 20</tempc>
+        <tempf>Rs. 20</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>roti1</icon>
+    </breadfood>
+    <breadfood>
+        <id>bread2</id>
+        <city>Onion Kulcha</city>
+        <tempc>Rs. 30</tempc>
+        <tempf>Rs. 30</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>kulcha</icon>
+    </breadfood>
+    <breadfood>
+        <id>bread3</id>
+        <city>Veg Biryani</city>
+        <tempc>Rs. 100</tempc>
+        <tempf>Rs. 100</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>vegbiryani</icon>
+    </breadfood>
+	<breadfood>
+        <id>bread4</id>
+        <city>Butter Naan</city>
+        <tempc>Rs. 30</tempc>
+        <tempf>Rs. 30</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>naan</icon>
+    </breadfood>
+	<breadfood>
+        <id>bread5</id>
+        <city>Fried Rice</city>
+        <tempc>Rs. 80</tempc>
+        <tempf>Rs. 80</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>rice</icon>
+    </breadfood>
+	
+    
+</Weather>

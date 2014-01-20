@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+    <fooddata>
+        <id>1</id>
+        <city>Tunde Kabab</city>
+        <tempc>Rs. 630</tempc>
+        <tempf>Rs. 630</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>lambcurry</icon>
+    </fooddata>
+    <fooddata>
+        <id>1</id>
+        <city>Tunde Kabab new</city>
+        <tempc>Rs. 648</tempc>
+        <tempf>Rs. 636</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>lambcurry</icon>
+    </fooddata>
+
+</Weather>

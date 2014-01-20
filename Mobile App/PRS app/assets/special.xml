@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+    <special>
+        <id>sp1</id>
+        <city>Crispy Chicken</city>
+        <tempc>Rs. 199</tempc>
+        <tempf>Rs. 199</tempf>
+        <condition>Tender chicken marinated in homemade spices and fried to a scrumptious crisp. Served on crispy noodles for even more crunch!</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>chicken</icon>
+    </special>
+    <special>
+        <id>sp2</id>
+        <city>Crispy Veg Steak</city>
+        <tempc>Rs. 79</tempc>
+        <tempf>Rs. 79</tempf>
+        <condition>Veg patty baked to perfection with cheese. Served with assorted vegetables and our signature garlic-pepper brown sauce, accompanied with basil rice or garlic toast.</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>vegsteak</icon>
+    </special>
+    <special>
+        <id>sp3</id>
+        <city>Mexican Nachos</city>
+        <tempc>Rs. 157</tempc>
+        <tempf>Rs. 157</tempf>
+        <condition>Supremely crunchy nachos topped with tomato salsa, cheese sauce, red beans, jalapenos and onions baked to a crisp. Add smoked chicken if you are a meat lover.</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>nachos</icon>
+    </special>
+    <special>
+        <id>sp4</id>
+        <city>Chilli French Fries</city>
+        <tempc>Rs. 72</tempc>
+        <tempf>Rs. 72</tempf>
+        <condition>Tossed in sweet and tangy signature sauce garnished with fresh greens.</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>frenchfries</icon>
+    </special>
+    <special>
+        <id>sp5</id>
+        <city>Chicken Winglets</city>
+        <tempc>Rs. 99</tempc>
+        <tempf>Rs. 99</tempf>
+        <condition>Succulent chicken winglets marinated in signature hot 'n' spicy marinade and roasted to perfection. Served with home style ranch dip on the side.</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>winglets</icon>
+    </special>
+   
+    
+
+</Weather>

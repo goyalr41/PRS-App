@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+    <beverage>
+        <id>be1</id>
+        <city>Classic Lemonade</city>
+        <tempc>Rs. 90</tempc>
+        <tempf>Rs. 90</tempf>
+        <condition>Refreshing lemonade with a touch of mint and ginger. Refreshing lemon drinks that make for the perfect sip, when you are chillin'.</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>lemonade</icon>
+    </beverage>
+    <beverage>
+        <id>be2</id>
+        <city>Cappucino</city>
+        <tempc>Rs. 65</tempc>
+        <tempf>Rs. 65</tempf>
+        <condition>A belly of Italian espresso smoothened with steamed and foamed milk.</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>coffe</icon>
+    </beverage>
+    <beverage>
+        <id>be3</id>
+        <city>Lemon Ice Tea</city>
+        <tempc>Rs. 90</tempc>
+        <tempf>Rs. 90</tempf>
+        <condition>Ice cold, lemon flavoured tea, the ultimate refresher.</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>icetea</icon>
+    </beverage>
+    <beverage>
+        <id>be4</id>
+        <city>Cranberry Lemon</city>
+        <tempc>Rs. 90</tempc>
+        <tempf>Rs. 90</tempf>
+        <condition>Lemon iced tea with cranberry flavour and delicate white jelly-bits.</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>cranberry</icon>
+    </beverage>
+    <beverage>
+        <id>be5</id>
+        <city>Soft Drink</city>
+        <tempc>Rs. 40</tempc>
+        <tempf>Rs. 40</tempf>
+        <condition>A cool drink to refresh you</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>colddrink</icon>
+    </beverage>
+   
+    
+
+</Weather>

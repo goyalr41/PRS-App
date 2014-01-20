@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:minWidth="25dp"
+              android:id="@id/relativelay2">
+
+    <view android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          class="com.example.PRS.ActionBar" android:id="@+id/actionbar" android:layout_alignLeft="@+id/viewFlipper"
+          android:layout_alignParentTop="true"/>
+    <ViewFlipper
+            android:layout_width="fill_parent"
+            android:layout_height="75dp"
+            android:id="@+id/viewFlipper"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/quickmenubutton"
+                    android:background="@drawable/menuimage" android:layout_weight="1"/>
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/tablebookbutton"
+                    android:background="@drawable/delivery" android:layout_weight="1"/>
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/homedelbutton" android:layout_weight="1" android:background="@drawable/tablebookfin"/>
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/eventbookbutton"
+                    android:layout_gravity="center" android:layout_weight="1" android:background="@drawable/party"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout">
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/callmebutton" android:layout_weight="1" android:background="@drawable/callme"/>
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/gmapbutton" android:layout_weight="1" android:background="@drawable/mymap"/>
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/videobutton" android:layout_weight="1" android:background="@drawable/video"/>
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/newsletterbutton"
+                    android:layout_weight="1" android:background="@drawable/newsletter"/>
+        </LinearLayout>
+
+    </ViewFlipper>
+    <ViewFlipper
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewFlipper1" android:layout_alignLeft="@+id/actionbar"
+            android:layout_above="@+id/viewFlipper">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="20dp" android:layout_alignLeft="@+id/viewFlipper"
+                android:layout_above="@+id/viewFlipper">
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Menu"
+                    android:id="@+id/tvoption1" android:layout_gravity="center_vertical" android:layout_weight="1"
+                    android:gravity="center_horizontal"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Delivery"
+                      android:id="@+id/tvoption2" android:layout_gravity="center_vertical" android:layout_weight="1"
+                      android:gravity="center_horizontal"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Table"
+                      android:id="@+id/tvoption3" android:layout_gravity="center_vertical" android:layout_weight="1"
+                      android:gravity="center_horizontal"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Event"
+                      android:id="@+id/tvoption4" android:layout_gravity="center_vertical" android:layout_weight="1"
+                      android:gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="20dp"
+                      android:layout_alignLeft="@+id/viewFlipper" android:layout_above="@+id/viewFlipper"
+                      android:id="@+id/linearLayout1">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Call"
+                      android:id="@+id/textView" android:layout_gravity="center_vertical" android:layout_weight="1"
+                      android:gravity="center_horizontal"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Map"
+                      android:id="@+id/textView1" android:layout_gravity="center_vertical" android:layout_weight="1"
+                      android:gravity="center_horizontal"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Video"
+                      android:id="@+id/textView2" android:layout_gravity="center_vertical" android:layout_weight="1"
+                      android:gravity="center_horizontal"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Newsletter"
+                      android:id="@+id/textView3" android:layout_gravity="center_vertical" android:layout_weight="1"
+                      android:gravity="center_horizontal" android:singleLine="false"/>
+        </LinearLayout>
+    </ViewFlipper>
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="325dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/restau1"
+            android:layout_alignLeft="@+id/actionbar" android:layout_alignParentTop="true"
+            android:layout_marginTop="67dp"/>
+
+</RelativeLayout>

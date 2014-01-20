@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+    <curry>
+        <id>curr1</id>
+        <city>Aloo Curry </city>
+        <tempc>Rs. 250</tempc>
+        <tempf>Rs. 250</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>aloocurry</icon>
+    </curry>
+    <curry>
+        <id>curr2</id>
+        <city>Malai Kofta</city>
+        <tempc>Rs. 350</tempc>
+        <tempf>Rs. 350</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>malaikofta</icon>
+    </curry>
+    <curry>
+        <id>curr3</id>
+        <city>Rice </city>
+        <tempc>Rs. 150</tempc>
+        <tempf>Rs. 150</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>rice</icon>
+    </curry>
+    <curry>
+        <id>curr4</id>
+        <city>Aloo gobi</city>
+        <tempc>Rs. 170</tempc>
+        <tempf>Rs. 170</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>aloogobi</icon>
+    </curry>
+    <curry>
+        <id>curr5</id>
+        <city>Shahi Panner</city>
+        <tempc>Rs. 199</tempc>
+        <tempf>Rs. 199</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>shahipaneer</icon>
+    </curry>
+    
+</Weather>

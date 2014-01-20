@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+    <fastfood>
+        <id>fast1</id>
+        <city>Veg Burger</city>
+        <tempc>Rs. 60</tempc>
+        <tempf>Rs. 60</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>burger</icon>
+    </fastfood>
+    <fastfood>
+        <id>fast2</id>
+        <city>Momos</city>
+        <tempc>Rs. 65</tempc>
+        <tempf>Rs. 65</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>momos2</icon>
+    </fastfood>
+    <fastfood>
+        <id>fast3</id>
+        <city>Chilli Cheese Toast</city>
+        <tempc>Rs. 250</tempc>
+        <tempf>Rs. 250</tempf>
+        <condition>Crispy toast topped with melted cheese and chilli flakes. Contains onions garlic</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>toast</icon>
+    </fastfood>
+    <fastfood>
+        <id>fast4</id>
+        <city>Veg Sandwich</city>
+        <tempc>Rs. 70</tempc>
+        <tempf>Rs. 70</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>sandwich</icon>
+    </fastfood>
+    <fastfood>
+        <id>fast5</id>
+        <city>Veg Frankie</city>
+        <tempc>Rs. 50</tempc>
+        <tempf>Rs. 50</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>frankie</icon>
+    </fastfood>
+   
+    
+
+</Weather>

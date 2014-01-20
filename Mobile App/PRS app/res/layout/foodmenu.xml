@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@id/Foodmenurelative">
+
+    <ExpandableListView
+            android:layout_width="wrap_content"
+            android:layout_height="178dp"
+            android:id="@+id/expandableListView"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="53dp"
+            android:drawSelectorOnTop="false"
+            android:choiceMode="multipleChoice"
+            android:childDivider="#93ffc4"
+            android:fastScrollEnabled="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/untitled"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<excludeFolder url="file://$MODULE_DIR$/.classpath"/>
+		<excludeFolder url="file://$MODULE_DIR$/.idea"/>
+		<excludeFolder url="file://$MODULE_DIR$/.project"/>
+		<excludeFolder url="file://$MODULE_DIR$/.settings"/>
+		<excludeFolder url="file://$MODULE_DIR$/AndroidManifest.xml"/>
+		<excludeFolder url="file://$MODULE_DIR$/ant.properties"/>
+		<excludeFolder url="file://$MODULE_DIR$/assets"/>
+		<excludeFolder url="file://$MODULE_DIR$/bin"/>
+		<excludeFolder url="file://$MODULE_DIR$/build.xml"/>
+		<excludeFolder url="file://$MODULE_DIR$/libs"/>
+		<excludeFolder url="file://$MODULE_DIR$/local.properties"/>
+		<excludeFolder url="file://$MODULE_DIR$/proguard-project.txt"/>
+		<excludeFolder url="file://$MODULE_DIR$/project.properties"/>
+		<excludeFolder url="file://$MODULE_DIR$/res"/>
+		<excludeFolder url="file://$MODULE_DIR$/src"/>
+		<excludeFolder url="file://$MODULE_DIR$/untitled.eml"/>
+		<excludeFolder url="file://$MODULE_DIR$/untitled.iml"/>
+		<excludeFolder url="file://$MODULE_DIR$/untitled.userlibraries"/>
+	</contentEntry>
+	<levels>
+		<level name="android-support-v4" value="project"/>
+	</levels>
+</component>

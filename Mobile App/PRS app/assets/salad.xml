@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+    <salad>
+        <id>sal1</id>
+        <city>Broccoli Salad</city>
+        <tempc>Rs. 220</tempc>
+        <tempf>Rs. 220</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>broccoli</icon>
+    </salad>
+    <salad>
+        <id>sal2</id>
+        <city>Chicken Noddle</city>
+        <tempc>Rs. 310</tempc>
+        <tempf>Rs. 310</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>noodle</icon>
+    </salad>
+    <salad>
+        <id>sal3</id>
+        <city>Fruit Salad</city>
+        <tempc>Rs. 350</tempc>
+        <tempf>Rs. 350</tempf>
+        <condition>Fresh Fruit Salad </condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>salad</icon>
+    </salad>
+    <salad>
+        <id>sal4</id>
+        <city>Tackle Salad</city>
+        <tempc>Rs. 190</tempc>
+        <tempf>Rs. 190</tempf>
+        <condition>A taco salad worth tackling</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>tacosalad</icon>
+    </salad>
+    <salad>
+        <id>sal5</id>
+        <city>Tomato Soup</city>
+        <tempc>Rs. 290</tempc>
+        <tempf>Rs. 290</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>tomato</icon>
+    </salad>
+   
+    
+
+</Weather>

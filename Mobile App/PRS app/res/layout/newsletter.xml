@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mail" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="118dp" >
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter your E-mail" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/subs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subscribe"
+        android:textSize="35sp"
+        android:typeface="sans" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+        android:layout_marginTop="425dp" android:textStyle="bold" android:textColor="#383838"
+        android:textIsSelectable="true" android:clickable="true"/>
+    <view android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          class="com.example.PRS.ActionBar" android:id="@+id/view" android:layout_alignLeft="@+id/linearLayout1"
+          android:layout_alignParentTop="true" style="@style/ActionBar"/>
+
+</RelativeLayout>

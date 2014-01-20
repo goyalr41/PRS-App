@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+    <nonvegfood>
+        <id>non1</id>
+        <city>Butter Chicken </city>
+        <tempc>Rs. 450</tempc>
+        <tempf>Rs. 450</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>butterchicken3</icon>
+    </nonvegfood>
+    <nonvegfood>
+        <id>non2</id>
+        <city>Chicken Biryani</city>
+        <tempc>Rs. 350</tempc>
+        <tempf>Rs. 350</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>chickenbiryani</icon>
+    </nonvegfood>
+    <nonvegfood>
+        <id>non3</id>
+        <city>Fish Tikka</city>
+        <tempc>Rs. 400</tempc>
+        <tempf>Rs. 400</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>fishtikka</icon>
+    </nonvegfood>
+    <nonvegfood>
+        <id>non4</id>
+        <city>Kadhai Chicken</city>
+        <tempc>Rs. 420</tempc>
+        <tempf>Rs. 420</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>kadhaichicken</icon>
+    </nonvegfood>
+    <nonvegfood>
+        <id>non5</id>
+        <city>Lamb Curry</city>
+        <tempc>Rs. 500</tempc>
+        <tempf>Rs. 500</tempf>
+        <condition>Best of the Best we Serve, happy eating</condition>
+        <windspeed>5 kmph</windspeed>
+        <icon>lambcurry</icon>
+    </nonvegfood>
+    
+</Weather>

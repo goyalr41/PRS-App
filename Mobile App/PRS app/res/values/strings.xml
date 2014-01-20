@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="hello">Hello World!</string>
+    <string name="actionbar_activity_not_found">Failed to open intent...</string>
+    <string name="app_name">PRS</string>
+	<string name="titleSource">Hello</string>
+	<string name="tileNew">Raman</string>
+	<string name="titleLogin">Login</string>
+	<string name="titleRegister">Register</string>
+	<string name="strfooditem">Chicken Curry</string>
+	<string name="strfoodDesc">Chicken Curry is the best non veg item, we serve, people love to eat it.</string>
+	<string name="strfoodcost">Rs. 105</string><string name="strFoodCost">foodcost</string>
+	<string name="menuTitle">menutit</string><string name="menu_settings">men_set</string>
+	<string name="strFoodName">Lamb Curry</string><string name="strDescFoodCost"/>
+	<string name="strDescFoodDesc">Lamb Curry Dekh ke aap ke muh me pani aa jayega, aap ise khate hi rhenge bar bar har bar hamesha hamesha</string><string name="strDescFoodcost">Rs. 689</string><string name="strTemp">tem</string><string name="strFoodQuantity">sfq</string><string name="strfoodQuantity">Current Quantity :</string>
+</resources>
